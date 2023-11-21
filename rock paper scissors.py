@@ -12,22 +12,24 @@ while p_a=="yes":
         print("tie")
     elif cc=="scissors":
         if pc=="paper":
+            print("you loose")
+        
+        elif pc=="rock":
             print("you win")
             s+=1
-        elif pc=="rock":
-            print("you loose")
     elif cc=="paper":
         if pc=="rock":
             print("you loose")
-        elif pc=="paper":
+        elif pc=="scissors":
             print("you win")
             s+=1
     elif cc=="rock":
         if pc=="scissors":
+            print("you loose")
+        
+        elif pc=="paper":
             print("you win")
             s+=1
-        elif pc=="paper":
-            print("you loose")
     p_a=input("do you want to play again?:")
 print("your score is:",s)
 
