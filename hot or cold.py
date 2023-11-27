@@ -1,6 +1,7 @@
 import random as r
 p_a=''
 c=0
+print("Rules:\n1. The aim of the game is to guess the randomly generated number\n2. Pick a number between 1 and 100\n3. Coldestt=your guess is 90 away from the right answer\n4. Really cold=your guess is 80 away from the right answer\n5. Colder=your guess is 70 away from the right answer\n6. Colde=your guess is 60 away from the right answer\n7. Your guess is 50 away from the right answer\n8. Warm=your guess is 50 away from the right answer\n9. Warmer=your guess is 20 away from the right answer\n10. Hotter=your guess is 10 away from the right answer\n11. Really hott=your guess is 5 away from the right answer\n12. Hottest=less than 2 away from the answer")
 while p_a=='':
     cv=r.randint(1,101)
     
